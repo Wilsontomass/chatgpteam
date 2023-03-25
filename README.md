@@ -1,6 +1,12 @@
 # ChatGPTeam
 
 This was an idea I had to make chatgpt write and test simple programs.
+
+It works by making ChatGPT talk to itself, by labelling one set of messages
+the "programmer" and the other the "product owner". The "two" AIs
+go back and forth writing a program until they either run out of time
+or are done. 
+There's also a seperate chat that is created whenever the program is tested, allowing chatGPT to try out its code.
 ## How to use:
 Clone the repo, then create a file called `.env` and enter your open AI information
 ```
